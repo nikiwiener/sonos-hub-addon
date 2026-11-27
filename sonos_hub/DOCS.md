@@ -10,3 +10,7 @@ Music Assistant (Sendspin) in das Hub-Protokoll. Plan: `docs/PLAN-sendspin.md`, 
 - Testhub zu Hause: `mqtt_prefix: sonos-hub-test` und `advertise: false`, damit er dem Haupt-Hub nicht in die
   Quere kommt.
 - Daten liegen im Add-on unter `/data/hub` und sind Teil der HA-Sicherung.
+- Spotify: Suche und Stöbern laufen standardmäßig über eine eigene Spotify-App des Hubs (Option
+  `spotify_client_id`, Anmeldung in der Verwaltung unter „Spotify“; dort steht auch die Redirect-URI für das
+  Spotify-Dashboard). Abgespielt wird über den Spotify-Anbieter von Music Assistant. Umschalten auf Suche über
+  Music Assistant: Verwaltung → „Music Assistant“ → „Spotify suchen und stöbern“.
