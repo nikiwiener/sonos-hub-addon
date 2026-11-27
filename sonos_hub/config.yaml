@@ -3,7 +3,7 @@
 # version setzt addon-sync.sh aus src/sonos_hub/__init__.py (Supervisor baut nur bei neuer Version neu).
 name: Sonos-Hub
 version: "0.3.0-b6576ff"
-image: "ghcr.io/nikiwiener/{arch-sonos-hub}"
+image: "ghcr.io/nikiwiener/{arch}-sonos-hub"
 slug: sonos_hub
 description: Hub für Panel und App – übersetzt Music Assistant (Sendspin) ins Hub-Protokoll
 url: https://github.com/nikiwiener/sonos-hub-addon
